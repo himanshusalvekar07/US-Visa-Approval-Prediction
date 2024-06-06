@@ -25,3 +25,8 @@ class DataIngestionConfig:
 
 
 
+class DataValidationConfig:
+    pass
+
+
+

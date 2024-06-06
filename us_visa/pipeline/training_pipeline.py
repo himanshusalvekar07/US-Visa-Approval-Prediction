@@ -4,6 +4,7 @@ from us_visa.logger import logging
 
 from us_visa.components.data_ingestion import DataIngestion
 from us_visa.entity.config_entity import (DataIngestionConfig)
+
 from us_visa.entity.artifact_entity import (DataIngestionArtifact)
 
 class TrainPipeline:
@@ -31,7 +32,7 @@ class TrainPipeline:
             raise USvisaException(e, sys) from e
         
 
-    def run_pipeline(self, ):
+    def run_pipeline(self):
         """
         This method of TrainPipeline class is responsible for running complete pipeline
         """
